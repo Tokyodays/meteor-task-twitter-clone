@@ -10,3 +10,6 @@ insecure
 sanjo:jasmine
 velocity:html-reporter
 twitter-stub
+accounts-ui
+accounts-twitter
+accounts-password

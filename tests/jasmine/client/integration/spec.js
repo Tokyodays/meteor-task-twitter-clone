@@ -4,7 +4,7 @@
 
 /* global describe, it, expect, Meteor, Blaze, Template, Mongo, Posts */
 /* global beforeAll */
-
+/*
 var LOCALE_TEXTS = {
   'ja:Title': 'タイトル',
   'ja:The HTML title is "Twitter Clone"': 'HTMLタイトルが"Twitter Clone"である',
@@ -188,3 +188,4 @@ describe(t('Permission check'), function() {
     }, 100);
   });
 });
+*/

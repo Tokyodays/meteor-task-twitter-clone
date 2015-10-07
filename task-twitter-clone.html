@@ -6,9 +6,24 @@
   <h1>Welcome to Meteor!</h1>
 
   {{> hello}}
+
+
 </body>
 
 <template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+  {{> loginButtons}}
+    <ul>
+    {{#each tweets}}
+      {{> tweetsTemplate}}
+    {{/each}}
+    </ul>
+
+    <form action="" class="new-tweet">
+      <input type="text" name="text" placeholder="Type to add new tweeet" />
+    </form>
+
+</template>
+
+<template name="tweetsTemplate">
+  <li>{{text}}</li>
 </template>
